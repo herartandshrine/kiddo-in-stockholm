@@ -1,0 +1,19 @@
+{
+  "name": "kiddo-in-stockholm",
+  "version": "0.0.0",
+  "description": "Kiddo in Stockholm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herartandshrine/kiddo-in-stockholm.git"
+  },
+  "author": "Her art and shrine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herartandshrine/kiddo-in-stockholm/issues"
+  },
+  "homepage": "https://github.com/herartandshrine/kiddo-in-stockholm"
+}
