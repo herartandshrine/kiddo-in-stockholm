@@ -30,6 +30,12 @@ module.exports = function (grunt) {
         tasks: ['css'],
       },
     },
+    copy: {
+      js: {
+        src: 'bower_components/jquery/dist/jquery.js',
+        dest: 'public/jquery.js'
+      }
+    }
   });
 
   // Load the plugin that provides the tasks.
@@ -37,15 +43,18 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Custom task(s).
   // first parameter is the name of the task called when you launch `grunt <taskname>` in the terminal
   // seconde parameter is an array of tasks that are defined in the grunt.initConfig configuration
   grunt.registerTask('css', ['sass', 'autoprefixer']);
+  //
+  grunt.registerTask('js', ['copy:js']);
   // watch:css is to take the property `css` in the `watch` config
   grunt.registerTask('dev', ['watch:css']);
 
   // Default is the task called when you type only grunt
-  grunt.registerTask('default', ['css']);
-  
+  grunt.registerTask('default', ['css', 'js']);
+
 };

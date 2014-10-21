@@ -58,6 +58,12 @@ Those packages will be installed in the *node_modules* folder which is not comit
 npm install
 ```
 
+We also need to do this for our front-end librairies with:
+
+```
+bower install
+```
+
 then to compile all files needed to the project:
 
 ```

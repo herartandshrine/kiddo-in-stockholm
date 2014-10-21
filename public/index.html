@@ -9,10 +9,11 @@
   </head>
   <body>
     <header class='main-header'>
-      <button>≡</button>
+      <button class="js-open-menu">≡</button>
       <h1>A week in Sverige Stockholm</h1>
     </header>
-    <nav class='main-navigation'> 
+    <nav class='main-navigation js-open-menu-target'>
+      <button class='js-close-menu'>×</button>
       <ul>
         <li><a href='#' alt=''>Italian caffe</a></li>
         <li><a href='#' alt=''>Walking</a></li>
@@ -52,5 +53,7 @@
     <footer>
       <div>Boss&nbsp;:HISWE - Student&nbsp;:Her Art And Shrine</div>
     </footer>
+    <script src="./jquery.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
