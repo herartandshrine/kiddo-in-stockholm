@@ -1,0 +1,20 @@
+{
+  "name": "kiddo-in-stockholm",
+  "version": "0.0.0",
+  "homepage": "https://github.com/herartandshrine/kiddo-in-stockholm",
+  "authors": [
+    "Her Art and Shrine"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}

@@ -1,3 +1,4 @@
-html {
-	font-family: Helvetica, Arial, sans-serif;
-}
+@import './variables.scss';
+
+@import './general.scss';
+@import './header.scss';

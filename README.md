@@ -38,6 +38,14 @@ grunt css
 
 It will launch the tasks defined by `grunt.registerTask` with first parameter `'css'`
 
+##### [Bower](http://bower.io/)
+
+This will help us to have our front-end javascript librairies.
+
+```
+npm install -g bower
+```
+
 
 ### Build the project
 
