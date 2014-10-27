@@ -86,7 +86,7 @@ To check all news elements created / changes
 git status
 ```
 
-To watch if the content in grunfile.js is executed
+To watch if the content in gruntfile.js is executed
 
 ```
 grunt dev
