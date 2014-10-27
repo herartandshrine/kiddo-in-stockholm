@@ -65,7 +65,7 @@ We also need to do this for our front-end librairies with:
 ```
 bower install
 ```
-Install Git with command prompt acess
+Install Git with command prompt access
 
 ```
 git
