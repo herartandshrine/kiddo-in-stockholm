@@ -78,3 +78,17 @@ grunt
 ```
 
 Root file is the `public/index.html`. Just launch it in a browser as it is (for now) a static website.
+
+### Notes
+
+To check all news elements created / changes
+```
+git status
+```
+
+To watch if the content in grunfile.js is executed
+
+```
+grunt dev
+```
+
