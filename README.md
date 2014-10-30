@@ -86,7 +86,7 @@ To check all news elements created / changes
 git status
 ```
 
-To watch if the content in gruntfile.js is changing.
+To Compil .scss in .css & to watch any change in files .css .js .html and copy them at the right place.
 
 ```
 grunt dev
