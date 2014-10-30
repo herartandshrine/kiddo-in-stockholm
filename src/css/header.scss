@@ -1,9 +1,9 @@
 .main-header {
   h1 {
-  text-align: center;
+    text-align: center;
   }
-button {
-  background: none;
+  button {
+    background: none;
   }
 }
             
@@ -18,31 +18,31 @@ button {
   // Add CSS transition to animate the menu opening
   transition: transform .5s, box-shadow .5s; 
     
- &.is-open {
-  transform: translate(0, 0);
-  box-shadow: 0 5px 8px rgba(0, 0, 0, .5);
-  }
+  &.is-open {
+    transform: translate(0, 0);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .5);
+    }
 
- ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
 
- a {
-  color: $black;
-  display: block;
-  text-decoration: none;
-  padding: .5em;
-  }
-
- li {
-  border-bottom: 1px solid $black;
+  a {
+    color: $black;
+    display: block;
+    text-decoration: none;
+    padding: .5em;
+    }
+    
+  li {
+    border-bottom: 1px solid $black;
 
     // & is for getting the parent selector
     // li in this case
- &:last-child {
-  border: 0;
+  &:last-child {
+    border: 0;
     }
   }
 }

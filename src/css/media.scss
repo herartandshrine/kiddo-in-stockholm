@@ -3,12 +3,12 @@
 .main-header {
   h1 {
     text-align: center;
-  }
+   }
   button {
-  display: none;
-  }
+    display: none;
+   }
 }
- .main-navigation {
+.main-navigation {
   display: block;
   position: absolute;
   top: 0;
@@ -22,12 +22,12 @@
   width: 200px;
   height: 200%;
     
- button {
+button {
   display : none;   
   }
- }
- body {
+}
+    
+body {
   padding-left: 200px;
-     
- }
+  }
 }
