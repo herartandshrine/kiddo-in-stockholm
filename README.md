@@ -49,7 +49,7 @@ npm install -g bower
 
 ### Build the project
 
-Within your terminal go on the root of the project. (`cd path\to\my\project` in **unix** environements).
+Within your terminal go on the root of the project. (`cd path/to/my/project` in **unix** environements, (`cd path\to\my\project` in **windows** environements)).
 
 If it's not done before, this will install all the packages specified in the *package.json*. Either dependencies & devDependencies.  
 Those packages will be installed in the *node_modules* folder which is not comitted in the project.
@@ -86,7 +86,7 @@ To check all news elements created / changes
 git status
 ```
 
-To watch if the content in gruntfile.js is executed
+To watch if the content in gruntfile.js is changing.
 
 ```
 grunt dev
