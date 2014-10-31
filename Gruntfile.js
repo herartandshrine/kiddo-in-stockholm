@@ -94,15 +94,10 @@ module.exports = function (grunt) {
       },
     },
     scsslint: {
-      allFiles: [
-      '*.scss',
-      ],
       options: {
-        bundleExec: true,
-        config: '.scss-lint.yml',
-        reporterOutput: 'scss-lint-report.xml',
-        colorizeOutput: true
+        config: './.scss-lint.yml'
       },
+      default: 'src/css/*.scss'
     },
   });
 
