@@ -93,6 +93,17 @@ module.exports = function (grunt) {
         dest: 'public/index.html',
       },
     },
+    scsslint: {
+      allFiles: [
+      '*.scss',
+      ],
+      options: {
+        bundleExec: true,
+        config: '.scss-lint.yml',
+        reporterOutput: 'scss-lint-report.xml',
+        colorizeOutput: true
+      },
+    },
   });
 
   // //////////////
@@ -117,6 +128,8 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   // Run multiple tasks in the same time (used for watch)
   grunt.loadNpmTasks('grunt-concurrent');
+  // Correct errors in .scss
+  grunt.loadNpmTasks('grunt-scss-lint');
 
   // //////////////
   // CUSTOM TASK(S).
@@ -133,6 +146,6 @@ module.exports = function (grunt) {
 
   // Default is the task called when you type only grunt
   // By default it's the prod build where CSS, JS & HTML are minified
-  grunt.registerTask('default', ['clean', 'css', 'cssmin', 'copy:jquery', 'uglify', 'htmlmin']);
+  grunt.registerTask('default', ['clean', 'css', 'cssmin', 'copy:jquery', 'uglify', 'htmlmin', 'scsslint']);
 
 };
