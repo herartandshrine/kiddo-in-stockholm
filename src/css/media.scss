@@ -1,33 +1,33 @@
 @media screen and (min-width: 769px) {
 
-.main-header {
-  h1 {
-    text-align: center;
-   }
-  button {
-    display: none;
-   }
-}
-.main-navigation {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: $soft-grey;
-  transform: translate(0,0);
-  box-shadow: 0 0 0 rgba(0, 0, 0, .5);
-  // Add CSS transition to animate the menu opening
-  transition: transform .5s, box-shadow .5s;
-  width: 200px;
-  height: 200%;
-    
-button {
-  display : none;   
+  .main-header {
+    h1 {
+      text-align: center;
+    }
+    button {
+      display: none;
+    }
   }
-}
+  .main-navigation {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: $soft-grey;
+    transform: translate(0,0);
+    box-shadow: 0 0 0 rgba(0, 0, 0, .5);
+    // Add CSS transition to animate the menu opening
+    transition: transform .5s, box-shadow .5s;
+    width: 200px;
+    height: 200%;
     
-body {
-  padding-left: 200px;
+  button {
+    display: none;   
+    }
+  }
+    
+  body {
+    padding-left: 200px;
   }
 }
