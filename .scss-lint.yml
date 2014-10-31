@@ -85,8 +85,8 @@ linters:
     enabled: true
 
   PropertySortOrder:
-    enabled: true
-    ignore_unspecified: false
+    enabled: false
+    ignore_unspecified: true
 
   PropertySpelling:
     enabled: true
