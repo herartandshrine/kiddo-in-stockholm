@@ -5,8 +5,12 @@ html {
 body {
   color: $black;
   font-size: 100%;
+  margin: auto;
+  width: 800px;
+  word-wrap: break-word;
 }
 
 p {
+  text-align: justify;
   line-height: 1.5em;
 }
