@@ -22,7 +22,7 @@
     // Add CSS transition to animate the menu opening
     transition: transform .5s, box-shadow .5s;
     width: 200px;
-    height: 350%;
+    height: 100%;
     
     button {
       display: none;   
@@ -30,8 +30,39 @@
   }
     
   body {
-    padding-left: 200px;
+    margin-left: 210px;
+    overflow-x: hidden;
+  }
+    
+  .main-section {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 1000px;
+    padding: 10px;
+    margin: 0 340px;
+    vertical-align: top;
+  }
+    
+  .article-01,
+  .article-02,
+  .article-03,
+  .article-04 {
+    width: 780px;
+    margin: 0;
+  }
+    
+  aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    left: 1350px;
+    top: 80px;
+  }
+    
+  footer {
+    width: 1000px;
     margin: auto;
-    width: 800px;
   }
 }
