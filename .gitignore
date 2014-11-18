@@ -3,3 +3,4 @@ bower_components
 /public
 .brackets.json
 scss-lint-report.xml
+*.css.map
