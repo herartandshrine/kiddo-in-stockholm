@@ -26,34 +26,6 @@ p {
   line-height: 1.5em;
 }
 
-.datetime {
-  position: absolute;
-  right: 0;
-  left: 500px;
-  width: 150px;
-  height: 150px;
-  background: $red;
-  border-radius: 100px;
-  margin-left: -200px;
-  text-align: center;
-  line-height: 30px;
-}
-
-.year {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 3em;
-}
-
-.month {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 1.5em;
-}
-
-.day {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 3em;
-}
-
 footer {
   background-color: $black;
   color: $soft-grey;
