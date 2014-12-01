@@ -31,6 +31,37 @@ footer {
   color: $soft-grey;
 }
 
+.main-section {
+  padding: 20px;
+}
+
 .date {
   color: $red;   
 }
+
+.datetime {
+    width: 50px;
+    height: 50px;
+    background: $red;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 10px;
+  }
+
+  .year {
+    font-family: 'Permanent Marker', cursive;
+    font-size: .8em;
+    padding-top: 10px;
+  }
+
+  .month {
+    font-family: 'Permanent Marker', cursive;
+    font-size: .5em;
+  }
+
+  .day {
+    font-family: 'Permanent Marker', cursive;
+    font-size: .8em;
+ }
