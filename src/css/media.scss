@@ -30,7 +30,8 @@
     }
       
     a:hover {
-      color: $soft-grey;    
+      color: $soft-grey;
+      transition: 1s ease-out;
     }
       
     button {
@@ -71,7 +72,10 @@
     font-size: 3em;
  }
     
-  .main-section {
+  .main-section,
+  .section-one,
+  .section-two,
+  .section-three {
     box-sizing: border-box;
     width: 50%;
     margin: 0 auto;
