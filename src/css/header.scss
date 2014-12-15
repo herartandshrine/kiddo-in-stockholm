@@ -7,7 +7,11 @@
   }
     
   button {
-    background: none;
+    background: $red;
+    padding: .5em;
+    margin: 1em;
+    font-weight: 700;
+    font-size: 1.5em;
   }
 }
 
@@ -42,6 +46,7 @@
     
   li {
     border-bottom: 1px solid $black;
+    text-transform: uppercase;
 
     // & is for getting the parent selector
     // li in this case
@@ -64,4 +69,11 @@
 #header-three {
   background: url('media/header_three.jpg') 0 0 no-repeat;
   height: 600px;
+}
+
+#header-one h1,
+#header-two h1,
+#header-three h1 {
+  text-align: center;
+  background-color: $red;
 }
