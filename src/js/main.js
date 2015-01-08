@@ -30,6 +30,17 @@ $(function () {
       menu.$closeButton.on('click', menu.close);
     }
   };
-  // Launch the menu behaviour
+  // Smoothscroll
+  // https://github.com/kswedberg/jquery-smooth-scroll
+  var smoothScroll = {
+    init: function () {
+      $('a').smoothScroll({
+        speed: 'auto'
+      });
+    }
+  };
+
+  // Launch the different modules
   menu.init();
+  smoothScroll.init();
 });

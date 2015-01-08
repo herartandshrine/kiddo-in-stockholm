@@ -143,8 +143,11 @@ module.exports = function (grunt) {
   // Clean is for ensure that all the files are the good ones
   grunt.registerTask('dev', [ 'copy:html', 'copy:js', 'copy:jquery','copy:smoothScroll', 'css', 'concurrent']);
 
+  // Make a task that launch all the tests we want (scsslint only for now)
+  grunt.registerTask('test', ['scsslint']);
+
   // Default is the task called when you type only grunt
   // By default it's the prod build where CSS, JS & HTML are minified
-  grunt.registerTask('default', ['clean', 'css', 'cssmin', 'copy:jquery', 'copy:smoothScroll', 'uglify', 'htmlmin', 'scsslint']);
+  grunt.registerTask('default', ['clean', 'css', 'cssmin', 'copy:jquery', 'copy:smoothScroll', 'uglify', 'htmlmin', 'test']);
 
 };

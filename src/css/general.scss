@@ -43,28 +43,28 @@ footer {
 }
 
 .datetime {
-    font-size: 20px;
-    width: 4em;
-    height: 4em;
-    background: $red;
-    border-radius: 100px;
-    text-align: center;
-    margin: auto;
-    line-height: 20px;
+  font-size: 20px;
+  width: 4em;
+  height: 4em;
+  background: $red;
+  border-radius: 100px;
+  text-align: center;
+  margin: auto;
+  line-height: 20px;
+}
+
+.year {
+  font-family: 'Permanent Marker', cursive;
+  font-size: .8em;
+  padding-top: 10px;
+}
+
+.month {
+  font-family: 'Permanent Marker', cursive;
+  font-size: .5em;
   }
 
-  .year {
-    font-family: 'Permanent Marker', cursive;
-    font-size: .8em;
-    padding-top: 10px;
-  }
-
-  .month {
-    font-family: 'Permanent Marker', cursive;
-    font-size: .5em;
-  }
-
-  .day {
-    font-family: 'Permanent Marker', cursive;
-    font-size: .8em;
+.day {
+  font-family: 'Permanent Marker', cursive;
+  font-size: .8em;
  }
