@@ -69,6 +69,10 @@ module.exports = function (grunt) {
         src: 'src/html/index.html',
         dest: 'public/index.html',
       },
+      smoothScroll: {
+          src: 'bower_components/jquery-smooth-scroll/jquery.smooth-scroll.min.js',
+          dest: 'public/jquery.smooth-scroll.js',
+      },
     },
     // minify EVERYTHING
     uglify: {
@@ -137,10 +141,10 @@ module.exports = function (grunt) {
   // The task to have a proper envirenoment to code
   // Init everything & watch for changements
   // Clean is for ensure that all the files are the good ones
-  grunt.registerTask('dev', [ 'copy:html', 'copy:js', 'copy:jquery', 'css', 'concurrent']);
+  grunt.registerTask('dev', [ 'copy:html', 'copy:js', 'copy:jquery','copy:smoothScroll', 'css', 'concurrent']);
 
   // Default is the task called when you type only grunt
   // By default it's the prod build where CSS, JS & HTML are minified
-  grunt.registerTask('default', ['clean', 'css', 'cssmin', 'copy:jquery', 'uglify', 'htmlmin', 'scsslint']);
+  grunt.registerTask('default', ['clean', 'css', 'cssmin', 'copy:jquery', 'copy:smoothScroll', 'uglify', 'htmlmin', 'scsslint']);
 
 };
