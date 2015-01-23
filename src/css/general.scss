@@ -68,3 +68,12 @@ footer {
   font-family: 'Permanent Marker', cursive;
   font-size: .8em;
  }
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 20px 27.32px;
+  border-color: transparent transparent $red;
+  margin: auto;
+}

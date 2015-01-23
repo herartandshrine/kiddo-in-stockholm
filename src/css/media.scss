@@ -70,8 +70,15 @@
   .day {
     font-family: 'Permanent Marker', cursive;
     font-size: 3em;
+    margin-top: -.2em;
  }
     
+ .triangle {
+   position: absolute;
+   right: 0;
+   left: 130%;
+ }
+   
   .main-section,
   .section-one,
   .section-two,
